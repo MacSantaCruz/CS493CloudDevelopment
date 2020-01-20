@@ -1,0 +1,25 @@
+{
+	date:
+	owner:
+	program:
+	weekNumber:
+	lifts:[exercises]
+	self:
+	datastoreId:
+}
+Must have: date, program, weekNumber 
+(change: date, program, weekNumber ) 
+{
+	name:
+	reps:
+	sets:
+	self:
+	datastoreId:
+    owner: 
+    liftDate: 
+}
+Must have: name, reps, sets
+(change: name, reps, sets)
+
+Not checking done variable correctly
+Doesn't set done correctly when lift is already assigned
